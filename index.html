@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шаблон сайта для салона красоты</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">Beauty Salon</a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#booking">Записаться</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1>Красота и уход в уютной атмосфере</h1>
+            <p>Забронируйте идеальное время для ухода за собой</p>
+            <a href="#booking" class="btn">Записаться</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="images/service1.jpg" alt="Маникюр">
+                    <h3>Маникюр</h3>
+                    <p>Профессиональный уход за руками и ногтями</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/service2.jpg" alt="Стрижка">
+                    <h3>Стрижка</h3>
+                    <p>Модные стрижки и укладки</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/service3.jpg" alt="Уход за кожей">
+                    <h3>Уход за кожей</h3>
+                    <p>Комплексные процедуры для кожи лица и тела</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2>Фотогалерея</h2>
+            <div class="gallery-grid">
+                <img src="images/gallery1.jpg" alt="Фото салона">
+                <img src="images/gallery2.jpg" alt="Процедура маникюра">
+                <img src="images/gallery3.jpg" alt="Стрижка волос">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2>Отзывы клиентов</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <p>"Замечательные мастера, уютная атмосфера"</p>
+                    <span>- Анна Иванова</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Идеальное место для расслабления и ухода за собой"</p>
+                    <span>- Мария Смирнова</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking-section">
+        <div class="container">
+            <h2>Записаться на процедуру</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <select name="service">
+                    <option value="">Выберите услугу</option>
+                    <option value="manicure">Маникюр</option>
+                    <option value="haircut">Стрижка</option>
+                    <option value="skincare">Уход за кожей</option>
+                </select>
+                <textarea rows="4" cols="50" placeholder="Комментарий"></textarea>
+                <button type="submit">Записаться</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts-section">
+        <div class="container">
+            <h2>Контакты</h2>
+            <address>
+                <strong>Адрес:</strong> ул. Цветочная, 15<br>
+                <strong>Телефон:</strong> +7 (999) 123-45-67<br>
+                <strong>Часы работы:</strong> Пн-Вс: 10:00—20:00
+            </address>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; Beauty Salon Template 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
